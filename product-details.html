@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/tailwind.css" />
-    <title>Products</title>
+    <title>Products Details</title>
   </head>
   <body class="w-full bg-background">
     <div class="w-full bg-white">
@@ -76,225 +76,181 @@
       </div>
     </div>
     <div
-      class="relative -z-10 h-[660px] w-full object-cover"
-      style="background-image: url(images/ProductBg.png)"
+      class="main-container mt-10 flex flex-col space-y-10 py-10 md:flex-row md:space-y-0 md:space-x-5"
     >
-      <div
-        class="main-container -mt-12 flex flex-col items-center justify-center py-20"
-      >
-        <img src="images/cocktailsIcon.png" alt="" />
-        <h1 class="heading mt-10 text-center text-white">Our Products</h1>
-        <p class="mx-auto mt-5 w-full text-white md:w-1/2">
-          Pharetra ac neque, non diam, nisl volutpat facilisis facilisi. Ipsum
-          et enim integer rhoncus aliquam. Cursus euismod diam adipiscing
-          egestas eget egestas magnis blandit lobortis.
+      <div class="w-full md:w-1/3">
+        <h1 class="text-3xl font-extrabold">About Product</h1>
+        <p class="mt-8">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+          voluptatibus consequuntur ducimus fugit repellat distinctio maxime
+          ullam nulla ab quidem eius cum asperiores sequi aperiam voluptates.
+          Omnis fuga expedita repellat?
         </p>
+        <div class="mt-8">
+          <a href="#" class="button"> View Recipes </a>
+        </div>
       </div>
-    </div>
-    <div class="main-container lg-mt-96 -mt-80">
-      <div
-        class="justi mt-10 grid grid-cols-1 content-center py-4 md:grid-cols-2 lg:grid-cols-3"
-      >
+      <div class="flex w-full justify-center md:w-1/3">
         <div
-          class="mt-10 flex flex-col items-center justify-center py-3"
-          style="background-image: url(images/productBackground.png)"
+          class="item-center relative flex h-[550px] w-[380px] flex-col justify-center rounded-full bg-white"
         >
-          <div class="-mt-24">
-            <img
-              src="images/product-1.png"
-              class="h-[350px] w-[240px]"
-              alt=""
-            />
+          <div class="flex w-full items-center justify-center">
+            <img src="images/ChoppedTomatoes.png" alt="" />
           </div>
-          <div class="-mt-10">
-            <h2 class="text-3xl font-semibold">Cocktails</h2>
+          <div class="absolute -left-40 -bottom-8">
+            <img src="images/toamtoes.png" alt="" />
           </div>
         </div>
-        <div
-          class="mt-10 flex flex-col items-center justify-center py-3"
-          style="background-image: url(images/productBackground.png)"
-        >
-          <div class="-mt-24">
-            <img
-              src="images/product-1.png"
-              class="h-[350px] w-[240px]"
-              alt=""
-            />
-          </div>
-          <div class="-mt-10">
-            <h2 class="text-3xl font-semibold">Cocktails</h2>
-          </div>
+      </div>
+      <div class="w-full md:w-1/3">
+        <h3 class="text-2xl font-semibold">SKU : SKU1245</h3>
+        <div class="mt-6">
+          <p class="text-xl">Brand :</p>
+          <img class="mt-2" src="images/tomatobrand.png" alt="" />
         </div>
-        <div
-          class="mt-10 flex flex-col items-center justify-center py-3"
-          style="background-image: url(images/productBackground.png)"
-        >
-          <div class="-mt-24">
-            <img
-              src="images/product-1.png"
-              class="h-[350px] w-[240px]"
-              alt=""
-            />
+        <div class="mt-32">
+          <h2 class="text-2xl font-semibold">Why Choose Product</h2>
+          <div class="mt-4 flex items-center space-x-5 space-y-4">
+            <img src="images/tick.png" alt="" />
+            <span>
+              Tortor, pellentesque placerat facilisi sed morbi imperdie
+            </span>
           </div>
-          <div class="-mt-10">
-            <h2 class="text-3xl font-semibold">Cocktails</h2>
+          <div class="flex items-center space-x-5">
+            <img src="images/tick.png" alt="" />
+            <span>
+              Tortor, pellentesque placerat facilisi sed morbi imperdie
+            </span>
           </div>
-        </div>
-        <div
-          class="mt-10 flex flex-col items-center justify-center py-3"
-          style="background-image: url(images/productBackground.png)"
-        >
-          <div class="-mt-24">
-            <img
-              src="images/product-1.png"
-              class="h-[350px] w-[240px]"
-              alt=""
-            />
-          </div>
-          <div class="-mt-10">
-            <h2 class="text-3xl font-semibold">Cocktails</h2>
-          </div>
-        </div>
-        <div
-          class="mt-10 flex flex-col items-center justify-center py-3"
-          style="background-image: url(images/productBackground.png)"
-        >
-          <div class="-mt-24">
-            <img
-              src="images/product-1.png"
-              class="h-[350px] w-[240px]"
-              alt=""
-            />
-          </div>
-          <div class="-mt-10">
-            <h2 class="text-3xl font-semibold">Cocktails</h2>
-          </div>
-        </div>
-        <div
-          class="mt-10 flex flex-col items-center justify-center py-3"
-          style="background-image: url(images/productBackground.png)"
-        >
-          <div class="-mt-24">
-            <img
-              src="images/product-1.png"
-              class="h-[350px] w-[240px]"
-              alt=""
-            />
-          </div>
-          <div class="-mt-10">
-            <h2 class="text-3xl font-semibold">Cocktails</h2>
-          </div>
-        </div>
-        <div
-          class="mt-10 flex flex-col items-center justify-center py-3"
-          style="background-image: url(images/productBackground.png)"
-        >
-          <div class="-mt-24">
-            <img
-              src="images/product-1.png"
-              class="h-[350px] w-[240px]"
-              alt=""
-            />
-          </div>
-          <div class="-mt-10">
-            <h2 class="text-3xl font-semibold">Cocktails</h2>
+          <div class="flex items-center space-x-5">
+            <img src="images/tick.png" alt="" />
+            <span>
+              Tortor, pellentesque placerat facilisi sed morbi imperdie
+            </span>
           </div>
         </div>
       </div>
     </div>
-    <div class="main-container py-20">
-      <div class="">
-        <h1 class="heading text-center">Cocktails Recipes</h1>
-        <div
-          class="mt-10 grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-2 lg:grid-cols-4"
+    <div class="main-container">
+      <h2 class="text-center text-2xl font-extrabold">Chopped Tomatoes</h2>
+    </div>
+    <div class="main-container">
+      <div class="mt-20 overflow-x-auto">
+        <table
+          class="flex min-w-full divide-y-2 divide-gray-100 rounded-2xl bg-white text-base md:table md:flex-col"
         >
-          <div class="w-[300px] rounded-[32px] bg-white p-2">
-            <div>
-              <img
-                src="images/recipe1.png"
-                class="h-[230px] w-full max-w-full rounded-3xl object-cover"
-                alt=""
-              />
-            </div>
-            <div class="p-1.5">
-              <div class="mt-2 flex justify-between">
-                <span> 23 Dec, 2022 </span>
-                <span> 5 mins Read </span>
+          <thead>
+            <tr class="inline-flex flex-col p-3 md:table-row">
+              <th
+                class="px-6 py-4 text-left font-bold text-black md:whitespace-nowrap"
+              >
+                Pack
+              </th>
+              <th
+                class="px-6 py-4 text-left font-bold text-black md:whitespace-nowrap"
+              >
+                Description
+              </th>
+              <th
+                class="px-6 py-4 text-left font-bold text-black md:whitespace-nowrap"
+              >
+                Cases Per Pallet
+              </th>
+              <th
+                class="px-6 py-4 text-left font-bold text-black md:whitespace-nowrap"
+              >
+                Cases Per 20' Container
+              </th>
+              <th
+                class="px-6 py-4 text-left font-bold text-black md:whitespace-nowrap"
+              >
+                Shelf Life
+              </th>
+            </tr>
+          </thead>
+
+          <tbody class="divide-y divide-gray-200">
+            <tr class="inline-flex flex-col p-3 md:table-row">
+              <td class="px-6 py-4 md:whitespace-nowrap">12 x 234g</td>
+              <td class="px-6 py-4 md:whitespace-nowrap">
+                This is description
+              </td>
+              <td class="px-6 py-4 md:whitespace-nowrap">200</td>
+              <td class="px-6 py-4 md:whitespace-nowrap">120,000</td>
+              <td class="px-6 py-4 md:whitespace-nowrap">12 days</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="mt-24">
+        <h1 class="text-center text-3xl font-bold md:px-6 md:text-left">
+          People Also Viewed
+        </h1>
+        <div class="mt-10">
+          <div
+            class="mt-10 grid grid-cols-1 space-y-32 py-4 md:grid-cols-2 md:space-y-0 lg:grid-cols-4"
+          >
+            <div
+              class="mt-10 flex flex-col items-center justify-center"
+              style="background-image: url(images/productBackground.png)"
+            >
+              <div class="-mt-16">
+                <img
+                  src="images/ChoppedTomatoes.png"
+                  class="h-[200px] w-[140px]"
+                  alt=""
+                />
               </div>
-              <div>
-                <p class="mt-5 mb-3 text-2xl font-bold">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
-                  omnis tempore
-                </p>
+              <div class="mb-10">
+                <h2 class="text-xl font-semibold">Cocktails</h2>
+              </div>
+            </div>
+            <div
+              class="mt-10 flex flex-col items-center justify-center"
+              style="background-image: url(images/productBackground.png)"
+            >
+              <div class="-mt-16">
+                <img
+                  src="images/ChoppedTomatoes.png"
+                  class="h-[200px] w-[140px]"
+                  alt=""
+                />
+              </div>
+              <div class="mb-10">
+                <h2 class="text-xl font-semibold">Cocktails</h2>
+              </div>
+            </div>
+            <div
+              class="mt-10 flex flex-col items-center justify-center"
+              style="background-image: url(images/productBackground.png)"
+            >
+              <div class="-mt-16">
+                <img
+                  src="images/ChoppedTomatoes.png"
+                  class="h-[200px] w-[140px]"
+                  alt=""
+                />
+              </div>
+              <div class="mb-10">
+                <h2 class="text-xl font-semibold">Cocktails</h2>
+              </div>
+            </div>
+            <div
+              class="mt-10 flex flex-col items-center justify-center"
+              style="background-image: url(images/productBackground.png)"
+            >
+              <div class="-mt-16">
+                <img
+                  src="images/ChoppedTomatoes.png"
+                  class="h-[200px] w-[140px]"
+                  alt=""
+                />
+              </div>
+              <div class="mb-10">
+                <h2 class="text-xl font-semibold">Cocktails</h2>
               </div>
             </div>
           </div>
-          <div class="w-[300px] rounded-[32px] bg-white p-2">
-            <div>
-              <img
-                src="images/recipe1.png"
-                class="h-[230px] w-full max-w-full rounded-3xl object-cover"
-                alt=""
-              />
-            </div>
-            <div class="p-1.5">
-              <div class="mt-2 flex justify-between">
-                <span> 23 Dec, 2022 </span>
-                <span> 5 mins Read </span>
-              </div>
-              <div>
-                <p class="mt-5 mb-3 text-2xl font-bold">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
-                  omnis tempore
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-[300px] rounded-[32px] bg-white p-2">
-            <div>
-              <img
-                src="images/recipe1.png"
-                class="h-[230px] w-full max-w-full rounded-3xl object-cover"
-                alt=""
-              />
-            </div>
-            <div class="p-1.5">
-              <div class="mt-2 flex justify-between">
-                <span> 23 Dec, 2022 </span>
-                <span> 5 mins Read </span>
-              </div>
-              <div>
-                <p class="mt-5 mb-3 text-2xl font-bold">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
-                  omnis tempore
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-[300px] rounded-[32px] bg-white p-2">
-            <div>
-              <img
-                src="images/recipe1.png"
-                class="h-[230px] w-full max-w-full rounded-3xl object-cover"
-                alt=""
-              />
-            </div>
-            <div class="p-1.5">
-              <div class="mt-2 flex justify-between">
-                <span> 23 Dec, 2022 </span>
-                <span> 5 mins Read </span>
-              </div>
-              <div>
-                <p class="mt-5 mb-3 text-2xl font-bold">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
-                  omnis tempore
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="mt-12 flex justify-center">
-          <a href="#" class="button">View all Recipes</a>
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@
 }
 @tailwind utilities;
 .button {
-  @apply rounded-xl bg-primary px-5 py-2.5 text-white shadow-xl shadow-primary/20 hover:bg-blue-700;
+  @apply rounded-xl bg-primary px-8 py-3 font-bold text-white shadow-xl shadow-primary/20 hover:bg-blue-700;
 }
 .main-container {
   @apply mx-auto w-full max-w-7xl px-6;
