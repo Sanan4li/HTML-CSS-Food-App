@@ -1,6 +1,6 @@
 /* @import url("fonts/Mont.ttf"); */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 @tailwind base;
 @tailwind components;
 @font-face {
