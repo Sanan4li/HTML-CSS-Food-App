@@ -47,5 +47,5 @@
 .menu-hover:hover {
   border-bottom: 2px solid;
   border-image: linear-gradient(to left, #000 50%, transparent 50%) 100% 1;
-  font-weight: bold;
+  font-weight: semibold;
 }
