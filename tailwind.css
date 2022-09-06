@@ -46,6 +46,6 @@
 }
 .menu-hover:hover {
   border-bottom: 2px solid;
-  border-image: linear-gradient(to left, #000 50%, transparent 50%) 100% 1;
+  border-image: linear-gradient(to left,  transparent 20%, #000 75%, rgb(251, 77, 77) 20%, transparent 10%) 100% 1;
   font-weight: semibold;
 }
