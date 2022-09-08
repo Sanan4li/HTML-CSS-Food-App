@@ -5,9 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         mont: "Montserrat",
-        heading: 'Nunito Sans',
+        heading: "Nunito Sans",
         primary: "Asap",
-
       },
       colors: {
         background: "#F3F5F7",
