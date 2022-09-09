@@ -1,4 +1,3 @@
-@import url("fonts/Proxima.otf");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 @tailwind base;
@@ -7,10 +6,10 @@
   font-family: "mont";
   src: local("mont"), url(./fonts/Mont.ttf) format("ttf");
 }
-/* @font-face {
-  font-family: "proxima";
-  src: local("proxima"), url(./fonts/Proxima.otf) format("otf");
-} */
+@font-face {
+  font-family: Proxima;
+  src: url("fonts/ProximaNova-Regular.otf") format("opentype");
+}
 @tailwind utilities;
 .button {
   @apply rounded-xl bg-primary px-8 py-3 font-bold text-white shadow-xl shadow-primary/20 hover:bg-blue-700;
@@ -34,7 +33,7 @@
   -webkit-box-orient: vertical;
 }
 .heading {
-  @apply text-4xl font-extrabold;
+  @apply text-4xl font-bold;
 }
 .active-menu {
   border-bottom: 2px solid;
